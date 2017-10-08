@@ -1,0 +1,14 @@
+<?php
+
+
+$country = $argv[1];
+
+$ cities=[
+"costaruca"=> ["alajuela","san jose",heredia]
+"Micaragua" => ["managua","leon"]
+
+];
+
+
+
+print_r($cities[$country]);
