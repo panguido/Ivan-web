@@ -1,0 +1,7 @@
+instruccion a desarrollar del proyecto
+crear los citas
+login
+mantenimiento usuario(crear,editar,eliminar)
+registro productos(ceras,minoxidil)
+inventario
+trabajadores

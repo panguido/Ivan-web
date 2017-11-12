@@ -12,6 +12,19 @@
 	width:100%;
 }
 
+html  {
+
+  background-image: url("../barberia/fond.jpg");
+background-repeat: no-repeat;
+color:#fff;
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font:600 16px/18px 'Open Sans',sans-serif;
+
+}
+
 .navbar-inner {
     margin-top: 0;
     background: #fff;
@@ -256,3 +269,10 @@ ul.thumbnails {
 
 
 li { list-style-type:none;}
+
+#inf{
+
+margin-top: 5%;
+
+
+}

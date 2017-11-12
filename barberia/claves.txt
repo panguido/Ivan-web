@@ -3,3 +3,6 @@
 
 E_7rDBgsZjByNb9CQdDWiQ == mega recuperacion
 i.tico@hotmail.com = =gitlab
+
+
+AIzaSyD57dw2vzfLilDKh52ZwSYCv2vQWXicS78 == Api google maps.
