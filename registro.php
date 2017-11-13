@@ -97,7 +97,7 @@
 
                     <div class="form-group">
                         <div class="col-md-12">
-                            <a href="./index.html" menuid="1" followlink="true">
+                            <a href="./index.php" menuid="1" followlink="true">
                             <button type="button"  class="btn btn-primary">
                                 
                                 Confirmado
@@ -118,7 +118,11 @@
 
   
     <div id="map"></div>
-   
+   <?php 
+include "footer.php";
+
+?>
+    
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>	
 <script src="js/registro.js"></script>

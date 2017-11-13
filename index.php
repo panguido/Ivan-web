@@ -5,61 +5,16 @@
 	<title> barberia Morera</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
-
-
+	<link rel="stylesheet" type="text/css" href="css/headerFooter.css">
 </head>
 <body>
-
-
-	<div class="header_top"></div>
-
-	<div class="menu">
-		<header class="container">
-			<div class="navbar navbar-inner">
-				<div class="container">
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-menu">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a id="closepage" menuid="0" class="brand" href="#" followlink="true"><img id="logoimg" height="100px" src="multimedia/Captura.PNG" alt=""></a>
-
-					</div>
-					<div class="collapse navbar-collapse pull-right" id="main-menu">
-						<ul class="nav">
-							<li class="fadeInDown animated d1 "><a href="#" class="active" id="home" menuid="0" followlink="true" >Principal</a></li>
-
-							<li class="fadeInDown animated d2"><a href="./login.php" menuid="1" followlink="true">Cuenta </a></li>
-
-
-
-							<li class="dropdown fadeInDown animated d3">
-								<a href="#" class="trigger right-caret">Servicios</a>
-
-
-							</li>
-
-							<li class="fadeInDown animated d3"><a href="./informacion.html" menuid="11" followlink="true">Sugerencias administrativos </a></li>
-
-							<li class="fadeInDown animated d2"><a href="calendario.html" menuid="1" followlink="true">Citas</a></li>
-
-							<li class="fadeInDown animated d2"><a href="Mantenimiento.html" menuid="1" followlink="true">Mantenimiento</a></li>
-
-						</ul>
-
-					</div>
-					<!--/.nav-collapse -->
-				</div>
-				<div class="container">
+<?php include "header.php" ?>
+<div class="container">
 					<div class="col-xs-12">
-
 						<div class="page-header" id="inf">
 							<h3>Barberia Morera..!!</h3>
 							<p>Estamos para servirles</p>
 						</div>
-
 						<div class="carousel slide" id="myCarousel">
 							<div class="carousel-inner">
 								<div class="item active">
@@ -207,29 +162,25 @@
 											</div>
 										</li>
 									</ul>
-								</div><!-- /Slide3 --> 
+								</div>
 							</div>
-
-
 							<nav>
 								<ul class="control-box pager">
 									<li><a data-slide="prev" href="#myCarousel" class=""><i class="glyphicon glyphicon-chevron-left"></i></a></li>
-									<li><a data-slide="next" href="#myCarousel" class=""><i class="glyphicon glyphicon-chevron-right"></i></li>
+									<li><a data-slide="next" href="#myCarousel" class=""><i class="glyphicon glyphicon-chevron-right"></i></a></li>
 								</ul>
 							</nav>
+				          
 
+					</div>
+                    </div>
+                    
+</div>
 
-
-						</header>
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/Pco_7fpfz1I" frameborder="0" allowfullscreen></iframe>
-
-					</div><!--menu-->
-
-
-
-					<script src="js/jquery.min.js"></script>
-					<script src="js/bootstrap.min.js"></script>	
-					<script src="js/index.js"></script>	
-				</body>
-				</html>
+<?php include "footer.php" ?>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>	
+<script src="js/index.js"></script>	
+</body>
+</html>
 

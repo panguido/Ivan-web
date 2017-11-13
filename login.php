@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="css/registro.css">
 
 
-	<link rel="stylesheet" href="multimedia/registro.html"> 
+	<link rel="stylesheet" href="multimedia/registro.php"> 
 </head>
 <body>
 
@@ -42,7 +42,7 @@
 			    				</div>
 			    				  
 			    			</div>
-			    			   <a href="./registro.html" menuid="1" followlink="true">
+			    			   <a href="./registro.php" menuid="1" followlink="true">
          							<input type="button" value=" Regristro.. " class="btn btn-info btn-block"></a>
 			    		<br>
                         <input type="reset">

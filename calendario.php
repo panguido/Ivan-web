@@ -221,7 +221,11 @@
 		</div>
 	</div>
 	<p class="text-center">No this is not a working calendar. It is purely for design. You are more than welcome to make it work, I sure am!</p>
+<?php 
+include "footer.php";
 
+?>
+    
 		<script src="js/jquery.min.js"></script>
 					<script src="js/bootstrap.min.js"></script>	
 					<script src="js/calendario.js"></script>	
