@@ -31,7 +31,7 @@
 						<ul class="nav">
 							<li class="fadeInDown animated d1 "><a href="#" class="active" id="home" menuid="0" followlink="true" >Principal</a></li>
 
-							<li class="fadeInDown animated d2"><a href="./login.html" menuid="1" followlink="true">Cuenta </a></li>
+							<li class="fadeInDown animated d2"><a href="./login.php" menuid="1" followlink="true">Cuenta </a></li>
 
 
 
@@ -45,7 +45,7 @@
 
 							<li class="fadeInDown animated d2"><a href="calendario.html" menuid="1" followlink="true">Citas</a></li>
 
-							<li class="fadeInDown animated d2"><a href="#" menuid="1" followlink="true">Contactenos</a></li>
+							<li class="fadeInDown animated d2"><a href="Mantenimiento.html" menuid="1" followlink="true">Mantenimiento</a></li>
 
 						</ul>
 
