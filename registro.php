@@ -9,15 +9,11 @@
 </head>
 <body>
 
-   
-
-      
-      
  
         <div class="row">
 
             <div class="col-md-8 col-md-offset-2">
-                <form role="form" method="POST" action="#">
+                <form role="form" method="POST" action="php/registro_usuario.php">
 
                     <legend class="text-center">Registro</legend>
 
@@ -26,27 +22,27 @@
 
                         <div class="form-group col-md-6">
                             <label for="first_name">First name</label>
-                            <input type="text" class="form-control" name="" id="first_name" placeholder="First Name">
+                            <input type="text" class="form-control" name="first_name" id="first_name" placeholder="First Name">
                         </div>
 
                         <div class="form-group col-md-6">
                             <label for="last_name">Last name</label>
-                            <input type="text" class="form-control" name="last_name" id="" placeholder="Last Name">
+                            <input type="text" class="form-control" name="last_name" id="last_name" placeholder="Last Name">
                         </div>
 
                         <div class="form-group col-md-12">
                             <label for="">Email</label>
-                            <input type="email" class="form-control" name="" id="" placeholder="Email">
+                            <input type="email" class="form-control" name="Email" id="Email" placeholder="Email">
                         </div>
 
                         <div class="form-group col-md-6">
                             <label for="password">Password</label>
-                            <input type="password" class="form-control" name="" id="password" placeholder="Password">
+                            <input type="password" class="form-control" name="password" id="password" placeholder="Password">
                         </div>
 
                         <div class="form-group col-md-6">
                             <label for="confirm_password">Confirm Password</label>
-                            <input type="password" class="form-control" name="" id="confirm_password" placeholder="Confirm Password">
+                            <input type="password" class="form-control" name="confirm_password" id="confirm_password" placeholder="Confirm Password">
                         </div>
 
 
@@ -57,10 +53,11 @@
 
                         <div class="form-group col-md-6">
                             <label for="country"> Residencia </label>
-                            <select class="form-control" name="" id="country">
-                                <option>Alajuela 1</option>
-                                <option>San jose 2</option>
-                                <option>Heredia 3</option>
+                            <select class="form-control" name="countrys" id="country">
+                                <option value="Alajuela 1">Aguas Zarcas 1</option>
+                                <option value="Fortuna 2">Fortuna 2</option>
+                                <option value="Santa Rosa 3">Santa Rosa 3</option>
+                                <option value="Ciudad Quesadad 4">Ciudad Quesadad 4</option>
                             </select>
                         </div>
 
@@ -97,12 +94,12 @@
 
                     <div class="form-group">
                         <div class="col-md-12">
-                            <a href="./index.php" menuid="1" followlink="true">
-                            <button type="button"  class="btn btn-primary">
+                            
+                            <button type="submit"  class="btn btn-primary">
                                 
                                 Confirmado
-                            </button></a>
-                            <a href="#">Already have an account?</a>
+                            </button>
+
                         </div>
                     </div>
 
@@ -111,7 +108,7 @@
 
         </div>
     </div>
-
+   
 
 
 
