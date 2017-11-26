@@ -32,7 +32,7 @@
 
                         <div class="form-group col-md-12">
                             <label for="">Email</label>
-                            <input type="email" class="form-control" name="Email" id="Email" placeholder="Email">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="email">
                         </div>
 
                         <div class="form-group col-md-6">
@@ -52,8 +52,8 @@
                         <legend>Detalles opcionales de informacion..!!</legend>
 
                         <div class="form-group col-md-6">
-                            <label for="country"> Residencia </label>
-                            <select class="form-control" name="countrys" id="country">
+                            <label for="residencia"> Residencia </label>
+                            <select class="form-control" name="residencia" id="residencia">
                                 <option value="Alajuela 1">Aguas Zarcas 1</option>
                                 <option value="Fortuna 2">Fortuna 2</option>
                                 <option value="Santa Rosa 3">Santa Rosa 3</option>

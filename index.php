@@ -3,9 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title> barberia Morera</title>
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	
 	<link rel="stylesheet" type="text/css" href="css/headerFooter.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
 <?php include "header.php" ?>
@@ -175,12 +177,38 @@
 					</div>
                     </div>
                     
+                    
 </div>
 
+ <div class="container">
+            <div class="row mar-top-30">
+                <div class="col-sm-4">
+                    <div class="box text-center">
+                         <iframe width="260" height="215" src="https://www.youtube.com/embed/onNcXZ3h058" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                 <div class="col-sm-4">
+                    <div class="box text-center">
+                       <iframe width="260" height="215" src="https://www.youtube.com/embed/rN0GY7bHnHE" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                 <div class="col-sm-4">
+                    <div class="box text-center">
+                    <iframe width="260" height="215" src="https://www.youtube.com/embed/EECuwXJV2eM" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
 <?php include "footer.php" ?>
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>	
 <script src="js/index.js"></script>	
 </body>
 </html>
+
+<style>
+
+
+
+</style>
 
