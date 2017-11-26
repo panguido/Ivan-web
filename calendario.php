@@ -22,8 +22,8 @@ function Calendar(id, size, labelSettings, colors) {
   this.labelSettings = labelSettings;
   this.colors = colors;
 
-  months = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ]
-  label = [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" ];
+  months = [ "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octuber", "Noviembre", "Deciembre" ]
+  label = [ "Domingo", "Lunes", "Martes", "Miercoles", "Jueves", "Virnes", "Sabado" ];
 
   this.months = months;
 
@@ -381,7 +381,7 @@ Organizer.prototype.setOnClickListener = function (theCase, backCallback, nextCa
 
 /* end of library; everything is explained below; i'm sorry for the messy code and my bad practices; please criticise me */
 
-var calendar = new Calendar("calendarContainer", "small", [ "Wednesday", 3 ], [ "#e91e63", "#c2185b", "#ffffff", "#f8bbd0" ]);
+var calendar = new Calendar("calendarContainer", "small", [ "Miercoles", 3 ], [ "#e91e63", "#c2185b", "#ffffff", "#f8bbd0" ]);
 var organizer = new Organizer("organizerContainer", calendar);
 
 currentDay = calendar.date.getDate(); // used this in order to make anyday today depending on the current today
