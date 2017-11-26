@@ -107,7 +107,7 @@
             </div>
 
         </div>
-    </div>
+
    
 
 
@@ -126,7 +126,7 @@ include "footer.php";
  <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD57dw2vzfLilDKh52ZwSYCv2vQWXicS78&callback=initMap">
     </script>
-
+    </body>
 </html>
 
 
