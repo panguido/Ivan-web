@@ -28,7 +28,7 @@ body{
     text-align: center;
     line-height:40px;}      
 .photo-quote-left{
-    background:url(http://legalprom.cl/wp-content/uploads/2014/05/oscar.jpg) no-repeat center;
+    background:url(../barberia/e-f.png) no-repeat center;
     padding-top:100px;
     padding-bottom:100px;}
 
@@ -39,7 +39,7 @@ body{
     font-style: italic;}
     
 .quote-content-left p{
-    float: right;
+    float: left;
     padding-top:30px;
     font-style:normal;
     font-weight:700;
@@ -52,9 +52,10 @@ body{
     padding: 100px 200px;
     font-weight:300;
     font-size:18px;
-    color:white;}    
+    color:white;}   
+
 .photo-quote-right{
-    background:url(http://legalprom.cl/wp-content/uploads/2014/05/martita.jpg) no-repeat center;
+    background:url(../barberia/i-m.jpg) no-repeat center;
     padding-top:100px;
     padding-bottom:100px;}
 
@@ -73,7 +74,8 @@ body{
     
 .quote-content-right span{
     font-weight:300;
-    color:white;}
+    color:#4d4d4d;
+}
 
 
 

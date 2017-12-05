@@ -23,7 +23,7 @@
     <div class="row photo-quote-left">
         <div class="col-md-6 quote-content-left">
             En base a la capacitaciones existente entregamos un servicio de eficiencia superior, seguro y de bajo costo.
-            <p>”IVAN <span>”Morera</span></p>
+            <p>”Evelyn <span>”Morera</span></p>
         </div>
     </div>
 
@@ -44,25 +44,25 @@
 
     <div class="row photo-quote-right">
         <div class="col-md-6"></div>
-        <div class="col-md-6 quote-content-right">
+        <div class="col-md-6 quote-content-left">
             En base a la capacitacion existente entregamos un servicio de eficiencia superior y de bajo costo.
-            <p>”Evelyn <span>”Moreras</span></p>
+            <p>”Ivan <span>”Morera</span></p>
         </div>
     </div>
 
     <div class="row">
         <div class="col-md-12 one-column-text">
-            <h2 style="font-size:36px;">Olvídese de Trámites y Complicaciones</h2>
+            <h2 style="font-size:36px;">Olvídese de Esperas y Complicaciones</h2>
             <h3 style="font-size:24px;">Déjelo en nuestras manos</h3>
         </div>
     </div>
     
     <div class="row buttons-who-we-are">
         <div clas="col-md-6">
-            <a class="btn btn-primary btn-lg" href="./registro.php"style="float:left; width:30%;margin:10%; padding:30px;">Registrar su cuenta</a>
+            <a class="btn btn-primary btn-lg" href="https://www.facebook.com/imoreravargas"style="float:left; width:30%;margin:10%; padding:30px;">Contactar Ivan</a>
         </div>
         <div clas="col-md-6">
-            <a class="btn btn-info btn-lg" href="./registro.php"style="float:right;width:30%; margin:10%; padding:30px;">Crear su cuenta</a>
+            <a class="btn btn-info btn-lg" href="https://www.facebook.com/profile.php?id=1193960139"style="float:right;width:30%; margin:10%; padding:30px;">Contactar Evelyn</a>
         </div>
         
     </div>

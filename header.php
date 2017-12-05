@@ -14,11 +14,14 @@
 					<div class="collapse navbar-collapse pull-right" id="main-menu">
 						<ul class="nav">
 						
-							<li class="fadeInDown animated d2"><a href="./login.php" menuid="1" followlink="true">Cuenta </a></li>
+							<li class="fadeInDown animated d2"><a href="./principal.php" menuid="1" followlink="true">Inicio </a></li>
 							<li class="dropdown fadeInDown animated d3">
 								<a href="Registro.php" class="trigger right-caret">Registro</a>
 							</li>
 							<li class="fadeInDown animated d3"><a href="./informacion.php" menuid="11" followlink="true">Sugerencias administrativos </a></li>
+		 					<li class="dropdown fadeInDown animated d3">
+								<a href="producto.php" class="trigger right-caret">productos</a>
+							</li>
 							<?php
                             
                          if(!isset($_SESSION)){            
