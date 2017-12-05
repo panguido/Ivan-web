@@ -60,7 +60,14 @@
                                 <option value="Ciudad Quesadad 4">Ciudad Quesadad 4</option>
                             </select>
                         </div>
-
+                        <div class="form-group col-md-6">
+                            <label for="Tipo Usuario"> Tipo Usuario </label>
+                            <select class="form-control" name="rol" id="rol">
+                                <option value="admin">administrador</option>
+                                <option value="cliente">Cliente</option>
+                                <option value="empleado">Empleado</option>
+                            </select>
+                        </div>
                         <div class="form-group col-md-12">
                             <label for="found_site">¿Como se entero o informo sobre nosotros..?</label>
                             <select class="form-control" name="" id="found_site">
@@ -81,25 +88,17 @@
 
                     </fieldset>
 
-                    <div class="form-group">
-                        <div class="col-md-12">
-                            <div class="checkbox">
-                                <label>
-                                    <input type="checkbox" value="" id="">s
-                                    I accept the <a href="#">terms and conditions</a>.
-                                </label>
-                            </div>
-                        </div>
-                    </div>
+                   
 
                     <div class="form-group">
                         <div class="col-md-12">
-                            
+    <br>                        
                             <button type="submit"  class="btn btn-primary">
                                 
                                 Confirmado
                             </button>
-
+<br>
+                       <br>
                         </div>
                     </div>
 

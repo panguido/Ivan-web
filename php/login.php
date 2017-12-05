@@ -1,24 +1,30 @@
 <?php
-var_dump ($_POST);
 if(isset($_POST)){
 	if(isset($_POST["email"]) &&isset($_POST["contrasena"])){
-		if($_POST["email"]!=""&&$_POST["contrasena"]!=""){
+		if($_POST["email"]!="" &&$_POST["contrasena"]!=""){
 			include "conexion.php";
-			
 			$user_id=null;
-			$sql1= "select * from usuario where email = \"$_POST[email]\" or contrasena=\"$_POST[contrasena]\"";
+			$sql1= "select * from usuario where email = \"$_POST[email]\" and contrasena=\"$_POST[contrasena]\"";
 			$query = $con->query($sql1);
-            $contador = 0;
+            $contador = 0; 
+            if(!isset($_SESSION)){  
+               session_start();
+            }
 			while ($r=$query->fetch_array()) {
+                
 				$contador++;
+         
+                $_SESSION["nombre"]=$r["nombre"];
+                 $_SESSION["apellido"]=$r["apellido"];
+                 $_SESSION["rol"]=$r["rol"];
+                
 			}
 			if($contador === 0){
-				print "<script>alert(\"Acceso invalido.\");window.location='../login.php';</script>";
+				print "<script>alert(\"Acceso invalido.\");window.location='../index.php';</script>";
 			}else{
-				session_start();
-				$_SESSION["user_id"]=$user_id;
-				print "<script>window.location='../index.php';</script>";				
-			}
+				
+				print "<script>window.location='../principal.php';</script>";				
+			}        
 		}
 	}
 }

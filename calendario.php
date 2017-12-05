@@ -18,15 +18,19 @@
 
                     <fieldset>
                         <legend> Detalles de la Cita</legend>
-
+                     <div class="form-group col-md-6">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" class="form-control" name="nombre" id="nombre" placeholder=" nombre">
+                        </div>
+                       
                         <div class="form-group col-md-6">
                             <label for="fecha_Cita">Fecha de la cita:</label>
-                            <input type="text" class="form-control" name="fecha_Cita" id="fecha_Cita" placeholder=" fecha_Cita">
+                            <input type="date" class="form-control" name="fecha_Cita" id="fecha_Cita" placeholder=" fecha_Cita">
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label for="Hora">Hora  y tipo </label>
-                            <input type="text" class="form-control" name="Hora" id="Hora" placeholder=" Hora">
+                            <label for="hora">Hora</label>
+                            <input type="time" class="form-control" name="hora" id="hora" placeholder=" hora">
                         </div>
 
                         <div class="form-group col-md-12">
@@ -34,9 +38,14 @@
                             <input type="email" class="form-control" name="email" id="email" placeholder="email">
                         </div>
 
-                        <div class="form-group col-md-6">
-                            <label for="Compañero">Compañero de su preferencia: </label>
-                            <input type="text" class="form-control" name="Compañero" id="Compañero" placeholder="Compañero">
+                           <div class="form-group col-md-6">
+                            <label for="compannero"> Empleado:</label>
+                            <select class="form-control" name="compannero" id="compannero">
+                                <option value="Yarol ">Yarol </option>
+                                <option value="Alvin ">Alvin </option>
+                                <option value="George ">George </option>
+                                <option value=" William ">William </option>
+                            </select>
                         </div>
                           
                </fieldset>
@@ -47,21 +56,25 @@
                         <div class="form-group col-md-6">
                             <label for="residencia"> Residencia </label>
                             <select class="form-control" name="residencia" id="residencia">
-                                <option value="Alajuela 1">Aguas Zarcas 1</option>
-                                <option value="Fortuna 2">Fortuna 2</option>
-                                <option value="Santa Rosa 3">Santa Rosa 3</option>
-                                <option value="Ciudad Quesadad 4">Ciudad Quesadad 4</option>
+                                <option value="Alajuela ">Aguas Zarcas </option>
+                                <option value="Fortuna ">Fortuna </option>
+                                <option value="Santa Rosa ">Santa Rosa </option>
+                                <option value="Ciudad Quesadad ">Ciudad Quesadad </option>
                             </select>
                         </div>
-                        
-                        
-                        
-                          <div class="form-group col-md-6">
-                                            <label for="Cancelacion">Cancelacion de cita </label>
-                            <input type="text" class="form-control" name="Cancelacion" id="Cancelacion" placeholder=" Cancelacion">
-                        </div>
+                    
                           
                          </fieldset>
+                         
+                         <div class="form-group">
+                        <div class="col-md-12">
+                           <button type="submit"  class="btn btn-primary">
+                                
+                                Confirmado
+                            </button>
+
+                        </div>
+                    </div>
              </form>
              
              
