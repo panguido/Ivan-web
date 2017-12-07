@@ -22,6 +22,7 @@
 		 					<li class="dropdown fadeInDown animated d3">
 								<a href="producto.php" class="trigger right-caret">productos</a>
 							</li>
+							<li class="fadeInDown animated d2"><a href="calendario.php" menuid="1" followlink="true">Citas</a></li>
 							<?php
                             
                          if(!isset($_SESSION)){            
@@ -29,7 +30,7 @@
                             }
                             if($_SESSION['rol']=== "admin"){
 	                           ?>                         
-							<li class="fadeInDown animated d2"><a href="calendario.php" menuid="1" followlink="true">Citas</a></li>
+							
 							<li class="fadeInDown animated d2"><a href="mantenimiento_citas.php" menuid="1" followlink="true">Mantenimiento_citas</a></li>
 							<li class="fadeInDown animated d2"><a href="mantimiento_empleado.php" menuid="1" followlink="true">Mantenimiento_empleado</a></li>
 							<li class="fadeInDown animated d2"><a href="mantenimiento_usuario.php" menuid="1" followlink="true">Mantenimiento_usuario</a></li>

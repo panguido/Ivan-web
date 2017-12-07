@@ -54,10 +54,10 @@
                         <div class="form-group col-md-6">
                             <label for="residencia"> Residencia </label>
                             <select class="form-control" name="residencia" id="residencia">
-                                <option value="Alajuela 1">Aguas Zarcas 1</option>
-                                <option value="Fortuna 2">Fortuna 2</option>
-                                <option value="Santa Rosa 3">Santa Rosa 3</option>
-                                <option value="Ciudad Quesadad 4">Ciudad Quesadad 4</option>
+                                <option value="Alajuela ">Aguas Zarcas </option>
+                                <option value="Fortuna ">Fortuna </option>
+                                <option value="Santa Rosa ">Santa Rosa </option>
+                                <option value="Ciudad Quesadad ">Ciudad Quesadad </option>
                             </select>
                         </div>
                         <div class="form-group col-md-6">

@@ -13,7 +13,7 @@
         <div class="row">
 
             <div class="col-md-8 col-md-offset-2">
-                <form role="form" method="POST" action="php/registro_usuario.php">
+                <form role="form" method="POST" action="php/producto.php">
 
                     <legend class="text-center">Registro Producto</legend>
 
@@ -21,23 +21,23 @@
                         <legend> Detalles del Producto</legend>
 
                         <div class="form-group col-md-6">
-                            <label for="nombre_producto">nombre_producto</label>
-                            <input type="text" class="form-control" name="nombre_producto" id="nombre_producto" placeholder="nombre_producto">
+                            <label for="nombre_producto">Nombre_producto</label>
+                            <input type="text" class="form-control" name="nombre_producto" id="nombre_producto" placeholder="producto">
                         </div>
 
                         <div class="form-group col-md-6">
-                            <label for="Provedor">Provedor</label>
-                            <input type="text" class="form-control" name="Provedor" id="Provedor" placeholder="Provedor">
+                            <label for="provedor">Provedor</label>
+                            <input type="text" class="form-control" name="provedor" id="provedor" placeholder="provedor">
                         </div>
 
                         <div class="form-group col-md-12">
                             <label for="">Familia</label>
-                            <input type="text" class="form-control" name="Familia" id="Familia" placeholder="Familia">
+                            <input type="text" class="form-control" name="familia" id="familia" placeholder="familia">
                         </div>
 
                             <div class="form-group col-md-6">
-                            <label for="">costo_product</label>
-                            <input type="number" class="form-control" name="costo_product" id="costo_product" placeholder="costo_product">
+                            <label for="">Costo_producto</label>
+                            <input type="number" class="form-control" name="costo_producto" id="costo_producto" placeholder="costo">
                         </div>
 
 
@@ -49,10 +49,10 @@
                         <div class="form-group col-md-6">
                             <label for="residencia"> Residencia </label>
                             <select class="form-control" name="residencia" id="residencia">
-                                <option value="Alajuela 1">Aguas Zarcas </option>
-                                <option value="Fortuna 2">Fortuna </option>
-                                <option value="Santa Rosa 3">Santa Rosa </option>
-                                <option value="Ciudad Quesadad 4">Ciudad Quesadad </option>
+                                <option value="Alajuela ">Aguas Zarcas </option>
+                                <option value="Fortuna ">Fortuna </option>
+                                <option value="Santa Rosa ">Santa Rosa </option>
+                                <option value="Ciudad Quesadad ">Ciudad Quesadad </option>
                             </select>
                         </div>
                     </fieldset>

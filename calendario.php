@@ -45,6 +45,7 @@
                                 <option value="Alvin ">Alvin </option>
                                 <option value="George ">George </option>
                                 <option value=" William ">William </option>
+                                <option value=" Jordi ">Jordi </option>
                             </select>
                         </div>
                           
