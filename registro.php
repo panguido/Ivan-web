@@ -63,7 +63,7 @@
                         <div class="form-group col-md-6">
                             <label for="Tipo Usuario"> Tipo Usuario </label>
                             <select class="form-control" name="rol" id="rol">
-                                <option value="admin">administrador</option>
+                               
                                 <option value="cliente">Cliente</option>
                                 <option value="empleado">Empleado</option>
                             </select>

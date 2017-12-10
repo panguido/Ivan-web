@@ -107,11 +107,8 @@ if(!$query=$con->query($sql)){
                                                 </td>
                                               
                                                 
-                                                <td>
-                                                    <p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" name="editar" type="button" data-target="#edit" onclick="editarRutina(this.value)" value="<?php echo $idT; ?>"><span class="glyphicon glyphicon-pencil"></span></button></p>
-                                                </td>
-                                              
-                                             <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
+                                           <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" name="editar" type="button" data-target="#squarespaceModal" value="<?php echo $Tid_Usuario; ?>"><span class="glyphicon glyphicon-pencil"></span></button></p>
+                                               </td>
                                                 </tr>
                                             <?php
                                         }
@@ -127,12 +124,91 @@ if(!$query=$con->query($sql)){
                 </div>
             </div>
         </div>
+        
+        
+          <div class="modal fade" id="squarespaceModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                        <h3 class="modal-title" id="lineModalLabel">Manteniminet Empleado</h3>
+                    </div>
+                    <form action="php/registro_empleado.php" method="post">
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Id</label>
+                                <input type="text" class="form-control" name="txtid" id="txtid" readonly>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Nombre</label>
+                                <input type="text" class="form-control" name="txtnombre" id="txtnombre">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Apellidos</label>
+                                <input type="text" class="form-control" name="txtapellido" id="txtapellido">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email</label>
+                                <input type="text" class="form-control" name="txtemail" id="txtemail"  >
+                            </div>
+
+
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Contraseña</label>
+                                <input type="text" class="form-control" name="txtcontrasena"id="txtcontrasena" >
+                            </div>
+
+
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Residecia</label>
+                                <input type="text" class="form-control" name="txtresidencia" id="txtresidencia">
+                            </div>
+
+                            <input type="submit" class="btn btn-danger btn-xs" name="btnEliminar" value="Eliminar">
+
+                        </div>
+                        <div class="modal-footer">
+                            <div class="btn-group btn-group-justified" role="group" aria-label="group button">
+                                <div class="btn-group" role="group">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal" role="button">Cerrar</button>
+                                </div>
+                                <div class="btn-group" role="group">
+                                    <input type="submit" class="btn btn-default btn-hover-green" value="Actualizar" name="btnActualizar" role="button"/>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+    </div>
         <?php 
 include "footer.php";
 
 ?>
 
+<script>
 
+    var table = document.getElementsByTagName("table")[0];
+    var tbody = table.getElementsByTagName("tbody")[0];
+    tbody.onclick = function (e) {
+        var todo = "";
+        e = e || window.event;
+        var target = e.srcElement || e.target;
+        while (target && target.nodeName !== "TR") {
+            target = target.parentNode;
+        }
+        if (target) {
+            var cells = target.getElementsByTagName("td");
+            document.getElementById("txtid").value = cells[0].innerHTML;
+            document.getElementById("txtnombre").value = cells[1].innerHTML;
+            document.getElementById("txtapellido").value = cells[2].innerHTML;   
+            document.getElementById("txtemail").value = cells[3].innerHTML;
+                document.getElementById("txtcontrasena").value = cells[4].innerHTML;   
+            document.getElementById("txtresidencia").value = cells[5].innerHTML;
+        }
+    };
+</script>
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/mantenimiento.js"></script>
