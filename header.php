@@ -31,10 +31,12 @@
                             if($_SESSION['rol']=== "admin"){
 	                           ?>                         
 							
-							<li class="fadeInDown animated d2"><a href="mantenimiento_citas.php" menuid="1" followlink="true">Mantenimiento_citas</a></li>
-							<li class="fadeInDown animated d2"><a href="mantenimiento_empleado.php" menuid="1" followlink="true">Mantenimiento_empleado</a></li>
-							<li class="fadeInDown animated d2"><a href="mantenimiento_usuario.php" menuid="1" followlink="true">Mantenimiento_usuario</a></li>
+							<li class="fadeInDown animated d2"><a href="mantenimiento_citas.php" menuid="1" followlink="true">Mantenimiento citas</a></li>
+							<li class="fadeInDown animated d2"><a href="mantenimiento_empleado.php" menuid="1" followlink="true">Mantenimiento empleado</a></li>
+							<li class="fadeInDown animated d2"><a href="mantenimiento_usuario.php" menuid="1" followlink="true">Mantenimiento usuario</a></li>
+							<li class="fadeInDown animated d2"><a href="mantenimiento_product.php" menuid="1" followlink="true">Mantenimiento Producto</a></li>
 							<?php }
+							
                             ?>
 						</ul>
                     </div>

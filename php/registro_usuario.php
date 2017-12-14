@@ -38,11 +38,17 @@ if(isset($_POST)){
 	if(isset($_POST["first_name"]) && isset($_POST["last_name"]) &&isset($_POST["email"]) &&isset($_POST["password"]) &&isset($_POST["confirm_password"])&&isset($_POST["residencia"])&&isset($_POST["rol"])){
 	
 			include "conexion.php";
-			
+		
 			$found=false;
 	$sql= "INSERT INTO `usuario`( `nombre`, `apellido`, `email`, `contrasena`, `residencia`, `rol`) VALUES(\"$_POST[first_name]\",\"$_POST[last_name]\",\"$_POST[email]\",\"$_POST[password]\",\"$_POST[residencia]\",\"$_POST[rol]\")";
-			
 		
+       	
+         $destino="FROM:".$_POST[email];
+        $mens="mensaje de bienvenido a nuestra Familia Morera";
+        mail($_POST[email],$_POST[password],$mens);
+        var_dump(mail);
+        
+		  
 			$query = $con->query($sql);
         var_dump($query);
 			if($query!=null){

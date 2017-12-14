@@ -43,10 +43,14 @@ if(isset($_POST)){
 			
 			$found=false;
 	$sql= "INSERT INTO `citas`(`id`, `nombre`, `email`, `residencia`, `empleado`, `fecha`) VALUES(\"$_POST[first_name]\",\"$_POST[email]\",\"$_POST[residencia]\",\"$_POST[empleado]\,\"$_POST[fecha]\")";
-			
-		
 			$query = $con->query($sql);
         var_dump($query);
+$correo=$_POST["email"];
+$mesage="bienvenido ala Familia Morera";
+
+mail($correo,'ingreso citas','la cita se realizo correctamente',$mesage);
+
+        
 			if($query!=null){
 				print "<script>alert(\"Registro exitoso\");window.location='../index.php';</script>";
 			}else{
