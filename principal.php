@@ -114,7 +114,7 @@
 												</div>
 												<div class="caption">
 													<h4>Especialidad en Barbas..!!</h4>
-													<p>Nullam Condimentum Nibh Etiam Sem</p>
+													<p>Ambiente,tranquilo y acojedor donde nuestros clientes se sentida como su casa</p>
 													<a class="btn btn-mini" href="#">» Read More</a>
 												</div>
 											</div>
@@ -129,8 +129,8 @@
 													<a href="#"><img src="barberia/11.jpg" alt=""></a>
 												</div>
 												<div class="caption">
-													<h4>Praesent commodo</h4>
-													<p>Nullam Condimentum Nibh Etiam Sem</p>
+													<h4>nuestras dimenciones</h4>
+													<p>Nos permiten tener una mayor interraccion con el usuario</p>
 													<a class="btn btn-mini" href="#">» Read More</a>
 												</div>
 											</div>
@@ -141,8 +141,8 @@
 													<a href="#"><img src="barberia/12.jpg" alt=""></a>
 												</div>
 												<div class="caption">
-													<h4>Praesent commodo</h4>
-													<p>Nullam Condimentum Nibh Etiam Sem</p>
+													<h4>Entrada</h4>
+													<p>desde el momento de su llegada ya puede tener comunicacion con el personal</p>
 													<a class="btn btn-mini" href="#">» Read More</a>
 												</div>
 											</div>
@@ -153,8 +153,8 @@
 													<a href="#"><img src="barberia/9.jpg" alt=""></a>
 												</div>
 												<div class="caption">
-													<h4>Praesent commodo</h4>
-													<p>Nullam Condimentum Nibh Etiam Sem</p>
+													<h4>Transparencia</h4>
+													<p>brindamos un servicio transparente y de calidad</p>
 													<a class="btn btn-mini" href="#">» Read More</a>
 												</div>
 											</div>
@@ -165,8 +165,8 @@
 													<a href="#"><img src="barberia/13.jpg" alt=""></a>
 												</div>
 												<div class="caption">
-													<h4>Praesent commodo</h4>
-													<p>Nullam Condimentum Nibh Etiam Sem</p>
+													<h4>Ambiente de tranquilidad</h4>
+													<p>Muchos de nuestros clientes se relajan y se duermen en nuestro recinto </p>
 													<a class="btn btn-mini" href="#">» Read More</a>
 												</div>
 											</div>

@@ -64,7 +64,7 @@ if(!$query=$con->query($sql)){
                                                 <th>Nombre</th>
                                                 <th>Email</th>
                                                 <th>Residencia</th>
-                                                <th>Compañero</th>
+                                                <th>Empleado</th>
                                                 <th>Fecha</th>
 
                                             </thead>
