@@ -15,12 +15,12 @@ include "conexion.php";
 elseif(isset($_REQUEST["btnActualizar"]))
 {
     include "conexion.php";
-    $id=$_POST["txtid"];
-    $nombre=$_POST["txtnombre"];
-    $apellido=$_POST["txtapellido"];
-    $email=$_POST ["txtemail"];
-    $contrasena=$_POST["txtcontrasena"];
-    $residencia=$_POST["txtresidencia"];
+    $id=trim($_POST["txtid"]);
+    $nombre=trim($_POST["txtnombre"]);
+    $apellido=trim($_POST["txtapellido"]);
+    $email=trim($_POST ["txtemail"]);
+    $contrasena=trim($_POST["txtcontrasena"]);
+    $residencia=trim($_POST["txtresidencia"]);
     
     
     $sql="UPDATE `empleados` SET `nombre`='$nombre',`apellido`='$apellido',`email`='$email',`contrasena`='$contrasena',`residencia`=' $residencia' WHERE id= $id";

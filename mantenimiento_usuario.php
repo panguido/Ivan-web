@@ -48,7 +48,7 @@ if(!$query=$con->query($sql)){
                                     <option value="email">correo</option>
                                 </select>
                                 <button name="buscarValor" class="btn btn-default" type="submit">Buscar</button>
-
+                         <button class="btn btn-default"><a href="principal.php">Regresar</a></button>
                             </div>
                         </div>
                     </form>
@@ -157,7 +157,7 @@ if(!$query=$con->query($sql)){
 
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Contraseña</label>
-                                <input type="text" class="form-control" name="txtcontrasena"id="txtcontrasena" >
+                                <input style="text-al" type="text" class="form-control" name="txtcontrasena"id="txtcontrasena" >
                             </div>
 
 

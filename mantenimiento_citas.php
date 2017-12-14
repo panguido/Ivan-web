@@ -48,7 +48,7 @@ if(!$query=$con->query($sql)){
                                     <option value="email">correo</option>
                                 </select>
                                 <button name="buscarValor" class="btn btn-default" type="submit">Buscar</button>
-
+                                 <button class="btn btn-default"><a href="principal.php">Regresar</a></button>
                             </div>
                         </div>
                     </form>
@@ -137,19 +137,19 @@ if(!$query=$con->query($sql)){
                         <div class="modal-body">
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Id</label>
-                                <input type="text" id="txtid" name="txtid" class="form-control">
+                                <input type="text" id="txtid" name="txtid" class="form-control" style="align-content:center">
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Nombre</label>
-                                <input type="text" id="txtnombre"  name="txtnombre" class="form-control">
+                                <input type="text" id="txtnombre"  name="txtnombre" class="form-control" style="align-content:center">
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Email</label>
-                                <input type="text" class="form-control" name="txtemail" id="txtemail">
+                                <input type="text" class="form-control" name="txtemail" id="txtemail" style="align-content:center">
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Residecia</label>
-                                <input type="text" class="form-control" name="txtresidencia" id="txtresidencia">
+                                <input type="text" class="form-control" name="txtresidencia" id="txtresidencia" style="align-content:center">
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Empleado</label>

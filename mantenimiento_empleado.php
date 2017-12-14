@@ -48,7 +48,7 @@ if(!$query=$con->query($sql)){
                                     <option value="email">correo</option>
                                 </select>
                                 <button name="buscarValor" class="btn btn-default" type="submit">Buscar</button>
-
+                 <button class="btn btn-default"><a href="principal.php">Regresar</a></button>
                             </div>
                         </div>
                     </form>

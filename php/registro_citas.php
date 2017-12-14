@@ -15,13 +15,15 @@ include "conexion.php";
 elseif(isset($_REQUEST["btnActualizar"]))
 {
     include "conexion.php";
-    $id=$_POST["txtid"];
-    $nombre=$_POST["txtnombre"].trim();
-    $email=$_POST["txtemail"].trim();
-    $residencia=$_POST["txtresidencia"].trim();
-    $empleado=$_POST["txtempleado"].trim();
-    $fecha=$_POST["txtfecha"].trim();
-     $sql="UPDATE `citas` SET `nombre`='$nombre',`email`='$email',`residencia`='$residencia',`empleado`='$empleado',`fecha`='$fecha' WHERE id=$id";
+      $id= trim($_POST["txtid"]);
+  
+    $nombre=trim($_POST["txtnombre"]);
+    $email=trim($_POST["txtemail"]);
+    $residencia=trim($_POST["txtresidencia"]);
+    $empleado=trim($_POST["txtempleado"]);
+    $fecha=trim($_POST["txtfecha"]);
+    
+    $sql="UPDATE citas SET nombre ='$nombre',email ='$email',residencia ='$residencia',empleado ='$empleado',fecha ='$fecha' WHERE id=$id";
     var_dump($sql);
     if ($con->query($sql)===false){
      die("<script> alert(\"error:".mysqli_error($con)."\")</script>");
