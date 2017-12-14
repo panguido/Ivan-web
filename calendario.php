@@ -40,7 +40,7 @@
 
                            <div class="form-group col-md-6">
                             <label for="compannero"> Empleado:</label>
-                            <select class="form-control" name="compannero" id="compannero">
+                            <select class="form-control" name="empleado" id="empleado">
                                 <option value="Yarol ">Yarol </option>
                                 <option value="Alvin ">Alvin </option>
                                 <option value="George ">George </option>
