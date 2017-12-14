@@ -12,10 +12,10 @@ var_dump ($_POST);
 
 				$query = $con->query($sql);
 			if($query!=null){
-				$correo=$_POST["email"];
-				echo($correo);
+						echo($correo);
 				$mesage="Gracias por preferir barberias moreras";
 				mail($correo,'Notificacion',$mesage);
+
 				print "<script>alert(\"Registro exitoso de su solicitar de cita\");window.location='../index.php';</script>";
 			}else {
                 die("Error ".mysqli_error($con));

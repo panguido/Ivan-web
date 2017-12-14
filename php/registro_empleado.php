@@ -28,6 +28,9 @@ elseif(isset($_REQUEST["btnActualizar"]))
     if ($con->query($sql)===false){
      die("<script> alert(\"error:".mysqli_error($con)."\")</script>");
 }else{
+         echo($correo);
+				$mesage="Gracias por preferir barberias moreras";
+				mail($correo,'Notificacion',$mesage);
    print"<script>alert(\"Datos actualizados correctamente\");window.location='../mantenimiento_empleado.php';</script>";
     
 }

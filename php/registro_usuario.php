@@ -52,6 +52,10 @@ if(isset($_POST)){
 			$query = $con->query($sql);
         var_dump($query);
 			if($query!=null){
+                echo($correo);
+				$mesage="Gracias por preferir barberias moreras";
+				mail($correo,'Notificacion',$mesage);
+
 				print "<script>alert(\"Registro exitoso\");window.location='../index.php';</script>";
 			}else{
                 print "<script>alert(\"ingrese todos los datos\");window.location='../registro.php';</script>";
