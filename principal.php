@@ -126,11 +126,11 @@
 										<li class="col-sm-3">	
 											<div class="fff">
 												<div class="thumbnail">
-													<a href="#"><img src="barberia/11.jpg" alt=""></a>
+													<a href="#"><img src="barberia/minoxidil.jpg" alt=""></a>
 												</div>
 												<div class="caption">
-													<h4>nuestras dimenciones</h4>
-													<p>Nos permiten tener una mayor interraccion con el usuario</p>
+													<h4>Oferta del mes</h4>
+													<p>minoxidil Kirkland 5 Crecimiento Pelo/barba. • ORIGINAL! marca Kirkland • Para hombres • Uso para crecimiento de Cabello en Cabeza/Barba • Efectivo! Salud y Belleza</p>
 													<a class="btn btn-mini" href="#">» Read More</a>
 												</div>
 											</div>
